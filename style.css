@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: #c9d1d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+}
+
+.profile-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #6e40c9, #007acc);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 auto 15px auto;
+}
+
+h1 {
+  color: #f0f6fc;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.tagline {
+  color: #8b949e;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: opacity 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.linkedin { background: #0a66c2; color: white; }
+.github { background: #21262d; color: #c9d1d9; border: 1px solid #30363d; }
+.email { background: #238636; color: white; }
+
+.section {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 18px;
+  color: #f0f6fc;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #21262d;
+  padding-bottom: 8px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skills-grid span {
+  background: #21262d;
+  border: 1px solid #30363d;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #58a6ff;
+}
+
+.project-card {
+  background: #0d1117;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+}
+
+.project-card h3 {
+  color: #58a6ff;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.project-card p {
+  font-size: 13px;
+  color: #8b949e;
+  margin-bottom: 10px;
+}
+
+.project-link {
+  color: #2f81f7;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
