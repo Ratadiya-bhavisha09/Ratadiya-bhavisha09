@@ -15,7 +15,7 @@
 ---
 
 ### 🚀 About Me
-- 🎓 **BCA Graduate** (CGPA: 9.04) from Dr. V.R. Godhaniya IT College.
+- 🎓 **BCA Graduate** Dr. V.R. Godhaniya IT College.
 - 💻 **Full-Stack & Web Developer** specializing in React.js, Node.js, and database management.
 - 🎯 Passionate about writing scalable code, SEO optimization, and creating smooth UI/UX experiences.
 
